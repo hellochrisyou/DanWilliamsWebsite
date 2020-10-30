@@ -1,0 +1,39 @@
+@import "_arrow.scss";
+
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.container {
+  position: absolute;
+    top: -10%;
+    left: 50%;
+}
+
+.bio-container {
+  height: 100%;
+  width: 60vw;
+}
+
+.alignright {
+  float: right;
+  margin: 15px 0 15px 15px;
+}
+
+.bio-img-1 {
+  width: 15vw;
+  height: auto;
+}
+
+span.text {
+  color:black;
+  font-weight: 800;
+}
+p {
+  line-height: 31.6px;
+  font-size: 18px;
+  font-family: 'Hind Madurai','Helvetica Neue',Helvetica,sans-serif;
+}

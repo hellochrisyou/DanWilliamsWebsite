@@ -1,0 +1,28 @@
+.flex-box {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.flex-box div {
+    height: 5rem;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-left: 10vw;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat',Times,Baskerville,serif;
+}
+
+.home-text-wrapper-1 {
+  position: absolute;
+  bottom: 15vh;
+  left: 0;
+}
+
+.home-text-wrapper-2 {
+  position: absolute;
+  bottom: 7vh;
+  left: 0;
+}
