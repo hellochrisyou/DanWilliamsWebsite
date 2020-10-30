@@ -1,0 +1,93 @@
+.wrapper {
+
+}
+section {
+  position: absolute;
+  top: 20vh;
+}
+$ease: cubic-bezier(0.2, 1, 0.3, 1);
+
+.panel {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s linear, visibility 0s linear 0.2s;
+}
+.panel.foo {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s linear, visibility 0s linear;
+}
+
+mat-card {
+  display: inline-block;
+  top: 10vh;
+  max-height: 50%;
+  width: 100%;
+  max-width: 75%;
+}
+.left-svg {
+  position: fixed;
+  left: 0;
+}
+.right-svg {
+  position: fixed;
+  right: 0;
+}
+div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 55%;
+  transform: translate(-50%, -50%);
+
+  svg {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    margin: 0 2rem;
+    cursor: pointer;
+    overflow: visible;
+    polygon,
+    path {
+      transition: all 0.5s $ease;
+    }
+    &:hover polygon,
+    &:hover path {
+      transition: all 1s $ease;
+      fill: whitesmoke;
+    }
+
+    &:hover .arrow {
+      animation: arrow-anim 2.5s $ease infinite;
+    }
+    &:hover .arrow-fixed {
+      animation: arrow-fixed-anim 2.5s $ease infinite;
+    }
+  }
+}
+
+@keyframes arrow-anim {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  5% {
+    transform: translateX(-0.1rem);
+  }
+  100% {
+    transform: translateX(1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-fixed-anim {
+  5% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}

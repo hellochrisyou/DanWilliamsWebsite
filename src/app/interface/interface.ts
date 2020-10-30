@@ -1,5 +1,5 @@
-export interface ContactModel {
-  email: string;
-  fullname: string;
-  comment: string;
+export interface TestimonialCard {
+  cardTitle: string;
+  cardSubTitle: string;
+  cardContent: string;
 }

@@ -82,3 +82,7 @@ h1 {
     background: url('../assets/images/home-bg.jpg') no-repeat;
     background-size: cover;
 }
+
+:host ::ng-deep .mat-tab-group .mat-tab-header {
+  border-bottom: 0px solid rgba(0,0,0,.12) !important;
+}
