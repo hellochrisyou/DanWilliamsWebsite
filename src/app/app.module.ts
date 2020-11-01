@@ -1,3 +1,4 @@
+import { TestimonialsMobileComponent } from './testimonials-mobile/testimonials-mobile.component';
 import { MaterialModule } from './material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -24,6 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     LessonsComponent,
     TestimonialsComponent,
+    TestimonialsMobileComponent,
     HomeComponent,
     ErrorComponent
   ],

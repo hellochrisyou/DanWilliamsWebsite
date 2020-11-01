@@ -5,3 +5,48 @@ iframe {
   top: -75vh;
   left: 25vw;
 }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+  iframe {
+  width: 80vw;
+  left: 10vw;
+  height: 70vh;
+}
+}
+/* ----------- Google Pixel ----------- */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  iframe {
+    width: 90vw;
+    left: 5vw;
+    top: -70vh;
+    height: 60vh;
+  }
+}
+/* ----------- Google Pixel XL ----------- */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  iframe {
+    width: 90vw;
+    left: 5vw;
+    top: -70vh;
+    height: 60vh;
+  }
+}
+/* ----------- Windows Phone ----------- */
+@media screen and (device-width: 480px) and (device-height: 800px) {
+  iframe {
+    width: 90vw;
+    left: 5vw;
+    top: -70vh;
+    height: 60vh;
+  }
+}
+/* ----------- TABLETS ----------- */
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  iframe {
+    width: 90vw;
+    left: 5vw;
+    top: -65vh;
+    height: 60vh;
+  }
+}

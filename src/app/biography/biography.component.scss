@@ -37,3 +37,115 @@ p {
   font-size: 18px;
   font-family: 'Hind Madurai','Helvetica Neue',Helvetica,sans-serif;
 }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+  .container {
+    display: none;
+  }
+  .div-section {
+    position: absolute;
+    top: -80vh;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-left: 30vw;
+  }
+  .bio-img-1 {
+    width: 100%;
+  }
+  p {
+    margin-left: 5vw;
+    width: 80vw;
+    font-size: 12px;
+  }
+  }
+  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    .container {
+      display: none;
+    }
+    .div-section {
+      position: absolute;
+      top: -80vh;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-left: 30vw;
+    }
+    .bio-img-1 {
+      width: 100%;
+    }
+    p {
+      margin-left: 0;
+      width: 80vw;
+      font-size: 12px;
+    }
+  }
+  /* ----------- Google Pixel ----------- */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .container {
+    display: none;
+  }
+  .div-section {
+    position: absolute;
+    top: -80vh;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-left: 30vw;
+  }
+  .bio-img-1 {
+    width: 100%;
+  }
+  p {
+    margin-left: 0;
+    width: 80vw;
+    font-size: 12px;
+  }
+}
+/* ----------- Windows Phone ----------- */
+@media screen and (device-width: 480px) and (device-height: 800px) {
+  .container {
+    display: none;
+  }
+  .div-section {
+    position: absolute;
+    top: -80vh;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 5vh;
+    margin-left: 25vw;
+  }
+  .bio-img-1 {
+    width: 100%;
+  }
+  p {
+    margin-left: 5vw;
+    width: 90vw;
+    font-size: 12px;
+  }
+}
+/* ----------- TABLETS ----------- */
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    display: none;
+  }
+  .div-section {
+    position: absolute;
+    top: -70vh;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 5vh;
+    margin-left: 40vw;
+  }
+  .bio-img-1 {
+    width: 100%;
+  }
+  p {
+    margin-left: 5vw;
+    width: 90vw;
+    font-size: 24px;
+  }
+}

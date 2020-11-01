@@ -1,0 +1,62 @@
+.card-box {
+  position: absolute;
+  top: -75vh;
+}
+img {
+  width: 80vw;
+}
+mat-card {
+  width: 80vw;
+  left: 5vw;
+  margin-bottom: 10vh;
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  mat-card {
+    width: 80vw;
+    left: 7vw;
+    margin-bottom: 10vh;
+  }
+}
+/* ----------- Windows Phone ----------- */
+@media screen and (device-width: 480px) and (device-height: 800px) {
+  mat-card {
+    width: 80vw;
+    left: 7.5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 10vh;
+  }
+}
+/* ----------- TABLETS ----------- */
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  mat-card {
+    width: 65vw;
+    left: 15vw;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+  }
+  img {
+    width: 65vw;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  mat-card {
+    left: 17vw;
+  }
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+  mat-card {
+    width: 80vw;
+    left: 8vw;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+  }
+  img {
+    width: 80vw;
+  }
+}

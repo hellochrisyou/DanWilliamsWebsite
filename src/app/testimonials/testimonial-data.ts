@@ -1,7 +1,7 @@
 import { TestimonialCard } from './../interface/interface';
 
 export const TESTIMONIALCARD1: TestimonialCard = {
-  cardTitle: 'ELIZANDRO GARCIA-MONTOYA',
+  cardTitle: 'Elizandro Garcia-Montoya',
   cardSubTitle: 'Professional Clarinetist',
   cardContent: 'Lorem ipsum dolor sit amet, iudico commune pri at, vel ei case phaedrum voluptatum. Est nostro oblique epicurei et. Vis quas posse et, in sea causae mollis. Soluta facilis phaedrum te sit, et errem quaestio est, doctus voluptatibus no ius. Ea his placerat deserunt salutatus.  '
 };

@@ -1,3 +1,4 @@
+import { TestimonialsMobileComponent } from './testimonials-mobile/testimonials-mobile.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BiographyComponent } from './biography/biography.component';
@@ -16,6 +17,7 @@ export const routes: Routes = [
   { path: 'lessons', component: LessonsComponent },
   { path: 'media', component: MediaComponent },
   { path: 'testimonials', component: TestimonialsComponent },
+  { path: 'testimonials-mobile', component: TestimonialsMobileComponent },
   { path: '**', component: ErrorComponent }
 ];
 

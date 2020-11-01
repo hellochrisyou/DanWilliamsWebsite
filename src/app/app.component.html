@@ -1,8 +1,33 @@
-<body [ngClass]="backgroundClass">
+<body class="home">
   <header class="animate__animated animate__fadeInDown">
     <h1>DAN WILLIAMS</h1>
   </header>
-  <header>
+  <nav role="navigation" class="navigation-menu">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a routerLink="home" routerLinkActive="active">
+          <li>HOME</li>
+        </a>
+        <a routerLink="biography" routerLinkActive="active">
+          <li>BIO</li>
+        </a>
+        <a routerLink="media" routerLinkActive="active">
+          <li>MEDIA</li>
+        </a>
+        <a routerLink="testimonials-mobile" routerLinkActive="active">
+          <li>TESTIMONIALS</li>
+        </a>
+        <a routerLink="contact" routerLinkActive="active">
+          <li>CONTACT</li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <header class="desktop">
     <nav class="Nav2 animate__animated animate__slideInLeft">
       <ul class="Nav2__list">
         <li class="Nav2__item"><a class="Nav2__link" routerLink="home" routerLinkActive="active">HOME</a></li>

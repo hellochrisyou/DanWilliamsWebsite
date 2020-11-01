@@ -10,7 +10,7 @@ import { HandleErrorService } from './service/handle-error.service';
   animations: [fadeAnimation] // register the animation
 })
 export class AppComponent implements AfterViewInit {
-  backgroundClass = 'home'
+
   title = 'Dan Williams\' Website';
 
   constructor(private cdr: ChangeDetectorRef, private handleErrorService: HandleErrorService) {
